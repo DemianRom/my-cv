@@ -53,7 +53,6 @@ cv:
         end_date: present
         location: Mexico City
         highlights:
-          - "SAP ABAP Interface Design: Developed custom transactional screens and ALV Grid reports following TAW10/12 standards."
           - "Estudia-Pro (Web App): Architected a full-stack educational platform using Django (Python) and relational databases."
           - "Java Chess Game: Developed a complete Chess game in Java **leveraging advanced Object-Oriented Design Patterns**."
           - "IP Subnet Calculator: Created a high-precision VLSM calculator in Python capable of calculating unlimited subnets for complex network topologies."

@@ -180,8 +180,6 @@ Proven technical leader and #strong[competitive swimmer], combining peak academi
   [
     #strong[ESCOM IPN Technical Projects], Software Engineering Student
 
-    - #strong[SAP ABAP] Interface Design: Developed custom transactional screens and ALV Grid reports following #strong[TAW10]\/12 standards.
-
     - Estudia-Pro (Web App): Architected a full-stack educational platform using #strong[Django] (#strong[Python]) and relational databases.
 
     - #strong[Java] Chess Game: Developed a complete Chess game in #strong[Java] #strong[leveraging advanced Object-Oriented Design Patterns].
