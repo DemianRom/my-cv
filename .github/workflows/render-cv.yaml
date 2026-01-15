@@ -1,0 +1,31 @@
+name: Render CV
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: 
+
+jobs:
+  rendercv:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install RenderCV
+        run: pip install rendercv
+
+      - name: Render CV
+        run: |
+          # Asegúrate de que el nombre coincida con tu archivo .yaml
+          python -m rendercv render Demian_Romero_Bautista_CV.yaml
+
+      - name: Upload PDF as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Demian_Romero_Bautista_CV
+          path: rendercv_output/*.pdf
