@@ -1,0 +1,167 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Demian Romero Bautista
+  location: Mexico City, Mexico
+  email: demian0106@gmail.com
+  phone: "+52 55 5407 1782"
+  social_networks:
+    - network: LinkedIn
+      username: demian-romero-bautista-a245a2196
+    - network: GitHub
+      username: DemianRom
+  sections:
+    summary:
+      - "Top-tier Computer Systems Engineering student at ESCOM-IPN (GPA: **9.72/10**) specializing in SAP ABAP development."
+      - "Hands-on experience building **5+ enterprise-level applications**; completed TAW10**/12** training focused on process automation and data efficiency."
+      - "Proven technical leader and **competitive swimmer**, combining peak academic excellence with professional discipline."
+    education:
+      - institution: Instituto Politécnico Nacional (ESCOM)
+        area: Computational Systems Engineering
+        degree: B. S. 
+        start_date: 2023-06
+        end_date: 2026-12
+        location: Mexico City, Mexico
+        highlights:
+          - "**GPA: 9.72/10** (Ranked among the top students of the generation)."
+          - "Core focus on Object-Oriented Design, Relational Databases (RDBMS), and Algorithm Optimization."
+          - "Specializing in Natural Language Processing (NLP) and Data Mining electives to drive AI-powered enterprise insights."
+          - "Applying advanced engineering principles to master the SAP ABAP TAW10/12 framework and Cloud integration."
+    experience:
+      - company: SAP Learning Hub (Official Training)
+        position: Junior ABAP Developer Trainee
+        start_date: 2025-09
+        end_date: present
+        location: Remote
+        highlights:
+          - "Mentorship under Omar Romero Aldana, applying enterprise-grade best practices in ABAP Workbench (SE80) and Data Dictionary (SE11)."
+          - "Optimized data modeling via Transparent Tables, Views, and Search Helps; mastered Open SQL for efficient queries (JOINS, FOR ALL ENTRIES)."
+          - "Developed Dialogue Programs (Dynpros) using PBO/PAI logic, Screen Programming, and complex Selection Screens."
+          - "ABAP Objects (TAW12): Engineered applications using Global/Local Classes, Interfaces, Inheritance, and Design Patterns."
+          - "Implemented Object-Oriented ALV Grid with custom event handling and mastered Exception Handling."
+      - company: Tlaliware (Startup/Project)
+        position: Founder & Technical Director
+        start_date: 2024-12
+        end_date: 2025-06
+        location: Mexico City
+        highlights:
+          - "Spearheaded strategic decision-making for product development and technology stack selection."
+          - "Managed cross-functional teams to align technical goals with business objectives."
+          - "Led project roadmapping and resource allocation to ensure timely delivery of solutions."
+      - company: ESCOM IPN Technical Projects
+        position: Software Engineering Student
+        start_date: 2024-01
+        end_date: present
+        location: Mexico City
+        highlights:
+          - "SAP ABAP Interface Design: Developed custom transactional screens and ALV Grid reports following TAW10/12 standards."
+          - "Estudia-Pro (Web App): Architected a full-stack educational platform using Django (Python) and relational databases."
+          - "Java Chess Game: Developed a complete Chess game in Java **leveraging advanced Object-Oriented Design Patterns**."
+          - "IP Subnet Calculator: Created a high-precision VLSM calculator in Python capable of calculating unlimited subnets for complex network topologies."
+          - "Automata and Compiler Design: Developed a lexical analyzer in C to recognize and validate reserved keywords."
+    skills:
+      - label: SAP Development
+        details: "ABAP Objects (TAW12), DDIC (SE11), Workbench (SE80), Dynpros (PBO/PAI), Open SQL, BAPIs, RFCs."
+      - label: Programming
+        details: "SAP NetWeaver, SAP GUI, GitHub, Python (Django), Java (OOP), C, VHDL, SQL, HTML, Java**Script**, CSS."
+      - label: Networking
+        details: "OSPF, Subnetting (VLSM), OSI Model, Wireshark."
+      - label: Languages
+        details: "English (Intermediate-Advanced), Spanish (Native)."
+    honors_and_awards:
+      - bullet: "SAP Learning Hub Student Edition Verified (2026)."
+      - bullet: "Competitive Swimmer: Currently preparing for regional competitions; demonstrated high-level discipline."
+      - bullet: "Santander Academic Excellence Scholarship (Becario de Excelencia Académica)."
+
+design:
+  theme: classic
+  page:
+    size: us-letter
+    top_margin: 0.6in
+    bottom_margin: 0.6in
+    left_margin: 0.6in
+    right_margin: 0.6in
+    show_footer: true
+  colors:
+    name: "#004F90" # Azul profesional estilo SAP/Ingeniería
+    headline: "#004F90"
+    section_titles: "#004F90"
+    connections: "#444444"
+  typography:
+    line_spacing: 0.5em
+    alignment: justified
+    font_family:
+      body: Source Sans 3
+      name: Source Sans 3
+    font_size:
+      body: 10pt
+      name: 28pt
+      section_titles: 1.2em
+  header:
+    alignment: center
+    space_below_name: 0.4cm
+    space_below_headline: 0.2cm
+    connections:
+      separator: "  |  "
+      show_icons: true
+  section_titles:
+    type: with_partial_line
+    line_thickness: 0.5pt
+    space_above: 0.4cm
+    space_below: 0.2cm
+  entries:
+    date_and_location_width: 5.2cm # Espacio suficiente para ESCOM y fechas
+    side_space: 0cm
+    highlights:
+      bullet: "•"
+      space_above: 0.1cm
+      space_between_items: 0.1cm
+  templates:
+    footer: "*NAME* -- Page PAGE_NUMBER of TOTAL_PAGES"
+    date_range: START_DATE – END_DATE
+
+locale:
+  language: english
+  present: "Present"
+  month_abbreviations:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+
+settings:
+  current_date: '2026-01-14'
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: true
+    dont_generate_html: true
+
+    dont_generate_pdf: false
+    dont_generate_png: true
+
+
+  bold_keywords: 
+    - "SAP ABAP"
+    - "TAW10"
+    - "TAW12"
+    - "ABAP Objects"
+    - "NLP"
+    - "Data Mining"
+    - "Python"
+    - "Java"
+    - "Django"
+    - "ESCOM-IPN"
+    - "Santander"
