@@ -11,7 +11,7 @@ cv:
       username: DemianRom
   sections:
     summary:
-      - "Top-tier Computer Systems Engineering student at ESCOM-IPN (GPA: **9.72/10**) specializing in SAP ABAP development."
+      - "Top-tier Computer Systems Engineering student at ESCOM-IPN (GPA: **9.75/10**) specializing in SAP ABAP development."
       - "Hands-on experience building **5+ enterprise-level applications**; completed TAW10**/12** training focused on process automation and data efficiency."
       - "Proven technical leader and **competitive swimmer**, combining peak academic excellence with professional discipline."
     education:
@@ -22,7 +22,7 @@ cv:
         end_date: 2026-12
         location: Mexico City, Mexico
         highlights:
-          - "**GPA: 9.72/10** (Ranked among the top students of the generation)."
+          - "**GPA: 9.75/10** (Ranked among the top students of the generation)."
           - "Core focus on Object-Oriented Design, Relational Databases (RDBMS), and Algorithm Optimization."
           - "Specializing in Natural Language Processing (NLP) and Data Mining electives to drive AI-powered enterprise insights."
           - "Applying advanced engineering principles to master the SAP ABAP TAW10/12 framework and Cloud integration."
@@ -146,10 +146,9 @@ settings:
     html_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.html
     png_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.png
     dont_generate_markdown: true
-    dont_generate_html: true
-
+    dont_generate_html: false
     dont_generate_pdf: false
-    dont_generate_png: true
+    dont_generate_png: false
 
 
   bold_keywords: 
